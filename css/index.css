@@ -3,18 +3,15 @@
   margin: 0 auto;
 }
 .display-flex {
-  /* border: 1px solid tomato; */
   display: flex;
   gap: 30px;
-  /* align-items: center; */
-  /* text-align: center; */
+
   justify-content: space-between;
 }
 .logo-img {
   font-size: 30px;
 }
 .display-flex2 {
-  /* border: 1px solid rgb(98, 0, 255); */
   display: flex;
   gap: 48px;
   align-items: center;
@@ -25,14 +22,11 @@
   color: rgb(255, 255, 255);
 }
 .hero-flowers {
-  /* width: 570px; */
   font-size: 100px;
-  /* border: 1px solid rgb(71, 166, 255); */
+
   margin-top: -51px;
 }
 .hero-flower {
-  /* border: 1px solid tomato; */
-  /* width: 570px; */
   font-size: 100px;
   padding-bottom: -20px;
 }
@@ -121,18 +115,13 @@
 }
 .bullet-point {
   margin-left: -10px;
-  /* border: 1px solid tomato; */
 }
 
-/* sohan /* sohan sohan sohan sohan sohan sohan sohan sohan sohan sohan sohan sohan sohan  */
 .ss {
-  /* width: 100%; */
   margin-top: 500px;
 }
 .Latest-Deals {
   text-align: center;
-  /* margin-top: 300px; */
-  /* border: 1px solid greenyellow; */
   margin-bottom: 80px;
   padding-top: 20px;
 }
@@ -143,13 +132,11 @@
   font-size: 22px;
 }
 
-/* new styles */
 .all-three-images {
   display: flex;
   height: 423px;
   width: 1148px;
   column-gap: 28px;
-  /* border: 1px solid blue; */
 }
 .all-three-images img {
   filter: brightness(50%);
@@ -217,22 +204,13 @@
 .three-flower-display-flex {
   display: flex;
   height: 423px;
-  /* border: 1px solid rgb(255, 71, 184); */
 }
 .deal-bloom-margin {
-  /* border: 1px solid rgb(49, 12, 216); */
   row-gap: 5px;
 }
 .border-rediouss {
-  /* border: 5px solid rgb(172, 99, 99); */
-  /* margin-top: 60px; */
 }
 .border-redious {
-  /* /width: 367px; */
-  /* border: 1px solid violet; */
-  /* border-radius: 10px; */
-  /* background: rgba(0, 0, 0, 0.4); */
-  /* margin-top: 500px; */
   height: 209px;
 }
 .sohan {
@@ -316,6 +294,50 @@
   margin: 0 auto;
 }
 
+/* new footer style */
+.image-title-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: -600px;
+  left: 0px;
+}
+
+.footer-image-container {
+  width: 100%;
+  margin-top: 150px;
+}
+.footer-image-container img {
+  width: 100%;
+}
+.image-title-contianer {
+  font-size: 60px;
+  color: white;
+}
+.title-input-container {
+  display: flex;
+  align-items: center;
+}
+.title-input-container input {
+  font-size: 20px;
+  padding: 10px 0px 10px 15px;
+  width: 60%;
+  height: 35px;
+  border: none;
+}
+.title-input-container button {
+  width: 20%;
+  height: 55px;
+  border: none;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: large;
+}
+
 .imgwith {
   width: 1440px;
   height: 553px;
@@ -331,7 +353,7 @@
 .colorful-bunch {
   margin-top: 200px;
 }
-.h1 {
+.babu {
   color: white;
 }
 .email {
@@ -347,7 +369,6 @@
   padding: 19px 50px;
 }
 .section-flex {
-  border: 6px solid tomato;
   gap: 120px;
   margin-top: 400px;
   display: flex;
@@ -389,6 +410,7 @@
     flex-direction: column;
   }
   .ALWAYS-FRESHfont-size {
+    padding-top: 40px;
     font-size: 24px;
     padding-left: 10px;
   }
@@ -404,11 +426,11 @@
     margin-top: 210px;
   }
   .width570s {
-    margin-top: -50px;
+    margin-top: -40px;
   }
   .hero-flowers {
     font-size: 20px;
-    margin-top: -530px;
+    margin-top: -560px;
     margin-right: -28px;
   }
   .hero-flower {
@@ -424,10 +446,10 @@
     font-size: 14px;
   }
   .grid {
-    width: 100%;
+    width: 90%;
     display: flex;
     display: grid;
-    margin-left: 15px;
+    margin-left: -5px;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -460,9 +482,9 @@
   }
 
   .flower-stores {
-    width: 368px;
-    height: 350px;
-    margin-left: -2px;
+    width: 358px;
+    height: 396px;
+    margin-left: -22px;
   }
   .middle-part {
     /* margin-left: 30px; */
@@ -471,15 +493,17 @@
   }
   .Flower {
     margin-left: 3px;
-    margin-top: -80px;
+    margin-top: -70px;
     flex-direction: column;
   }
   .p {
-    width: 361px;
+    margin-top: -10px;
+    width: 331px;
     font-size: 14px;
+    margin-left: -10px;
   }
   .Flower-Plants {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .three-flower-display-flex {
     flex-direction: column;
@@ -497,6 +521,7 @@
     margin-top: -430px;
   }
   .ss {
+    margin-top: -200px;
     flex-direction: column;
   }
   .Latest-Deals {
@@ -508,23 +533,27 @@
   /* footer part */
   .section-flex {
     flex-direction: column;
-    margin-top: 700px;
+    margin-top: 20px;
     margin-left: 25px;
   }
   .heaadlines {
     flex-direction: column;
   }
   .imgwith {
-    width: 403px;
-    height: 273px;
+    width: 100%;
+    height: 276px;
   }
   .text-upto-top,
   .Join-the,
-  .h1 {
-    /* color: black; */
-    flex-direction: column;
+  .babu {
+    color: white;
+    margin-top: 50px;
+    /* flex-direction: column; */
   }
-  .h1 {
+  .htt {
+    margin-top: -100px;
+  }
+  .babu {
     margin-top: 50px;
     color: black;
     flex-direction: column;
@@ -557,17 +586,15 @@
     font-size: 50px;
   }
   .roses-to {
+    width: 370px;
     font-size: 22px;
   }
-
-  /* new styles */
   .all-three-images {
-    /* display: flex; */
     height: 123px;
     width: 350px;
-    column-gap: 28px;
-    /* border: 1px solid blue; */
-    margin-left: 30px;
+
+    margin-left: 6px;
+    flex-direction: column;
   }
   .all-three-images img {
     filter: brightness(50%);
@@ -590,5 +617,27 @@
     height: 276px;
     flex-direction: column;
     margin-top: 700px;
+  }
+  .left-upper-image-Ana,
+  .left-upper-image-Zabo {
+    width: 100%;
+  }
+
+  .left-upper-image-Zabo {
+    width: 355px;
+    height: 172px;
+  }
+  .image-title-contianer {
+    top: -10rem;
+    /* height: 400px; */
+  }
+  .footer-image-container {
+    margin-top: 600px;
+  }
+  .title-input-container button {
+    width: 30%;
+  }
+  .image-title-contianer h1 {
+    font-size: 30px;
   }
 }
