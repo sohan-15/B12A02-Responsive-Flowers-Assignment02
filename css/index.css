@@ -662,4 +662,15 @@
   .title-input-container {
     margin-top: -20px;
   }
+  .remove-decorationn {
+    margin-top: -70px;
+    flex-direction: column;
+  }
+  .remove-decorationns {
+    margin-top: -100px;
+    flex-direction: column;
+  }
+  .icon-flex {
+    margin-top: -70px;
+  }
 }
