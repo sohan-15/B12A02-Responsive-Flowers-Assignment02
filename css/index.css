@@ -633,11 +633,32 @@
   }
   .footer-image-container {
     margin-top: 600px;
+    font-size: 20px;
+    /* padding: 10px 50px 10px 10px; */
   }
   .title-input-container button {
     width: 30%;
   }
   .image-title-contianer h1 {
     font-size: 30px;
+  }
+  .title-input-container input {
+    font-size: 15px;
+    padding: 10px 53px 10px 15px;
+    width: 55%;
+    height: 17px;
+    border: none;
+  }
+  .title-input-container button {
+    width: 20%;
+    height: 36px;
+    border: none;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+  }
+  .title-input-container {
+    margin-top: -20px;
   }
 }
